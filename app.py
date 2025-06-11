@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Cargar datos
-df = pd.read_csv(r'C:\Users\usuario\Documents\Mi proyecto\vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 # Encabezado
 st.title("Análisis de Vehículos Usados en EE.UU.")
